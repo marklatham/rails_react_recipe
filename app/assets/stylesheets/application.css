@@ -1,4 +1,8 @@
 /*
+ * ML 2020-05-24: Not sure whether these comments are still relevant or accurate now that I've
+ * followed Step 5 in 
+ * https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-project-with-a-react-frontend
+ *
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,3 +17,40 @@
  *= require_tree .
  *= require_self
  */
+
+.bg_primary-color {
+  background-color: #FFFFFF;
+}
+.primary-color {
+  background-color: #FFFFFF;
+}
+.bg_secondary-color {
+  background-color: #293241;
+}
+.secondary-color {
+  color: #293241;
+}
+.custom-button.btn {
+  background-color: #293241;
+  color: #FFF;
+  border: none;
+}
+.custom-button.btn:hover {
+  color: #FFF !important;
+  border: none;
+}
+.hero {
+  width: 100vw;
+  height: 50vh;
+}
+.hero img {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
